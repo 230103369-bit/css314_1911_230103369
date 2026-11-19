@@ -1,0 +1,40 @@
+{
+  "github_username": "230103369-bit",
+  "mpi_ranks": 4,
+  "steps": 400,
+  "global_grid": [
+    512,
+    512
+  ],
+  "instance_seed": 15516582266466220145,
+  "gpu_uuid": "GPU-8b4dfbd8-731d-e8ef-d19b-3d0629b21d12",
+  "kappa_max": 0.23999962497115201,
+  "dt": 1.583268993534322e-06,
+  "parity_max_diff": 0.0,
+  "parity_passed": true,
+  "ptx_instruction_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true,
+  "serialized_ms": 1446.249,
+  "overlapped_ms": 1730.584,
+  "solver_metrics": {
+    "github_username": "230103369-bit",
+    "gpu_uuid": "GPU-8b4dfbd8-731d-e8ef-d19b-3d0629b21d12",
+    "instance_seed": 15516582266466220145,
+    "mpi_ranks": 4,
+    "global_nx": 512,
+    "global_ny": 512,
+    "steps": 400,
+    "dt": 1.583268993534322e-06,
+    "runtime_seconds": 1.815691092,
+    "milliseconds_per_step": 4.53922773,
+    "global_min": 9.809870035865227e-20,
+    "global_max": 1.3498271946318687,
+    "global_mean": 0.09765209006895545,
+    "global_sum": 25598.909499036257
+  },
+  "verification_passed": true
+}
