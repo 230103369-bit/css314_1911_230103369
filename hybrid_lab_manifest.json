@@ -1,0 +1,50 @@
+{
+  "assignment": "Hybrid MPI CUDA Cache Lab",
+  "github_username": "230103369-bit",
+  "generated_at_utc": "2026-11-20T04:02:18.147081+00:00",
+  "environment": {
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "cpu_architecture": "x86_64",
+    "cache_line_bytes": 64,
+    "gpu": "Tesla T4",
+    "mpi_ranks": 4
+  },
+  "task3": {
+    "steps": 300,
+    "serialized_ms": 1377.3828500000036,
+    "overlapped_ms": 1700.7544409998445,
+    "speedup": 0.8098657964933866,
+    "maximum_error": 0.0,
+    "serialized_energy": 65438.79229824849,
+    "overlapped_energy": 65438.79229824849,
+    "verification_passed": true
+  },
+  "task4": {
+    "iterations_per_rank": 40000000,
+    "strides": [
+      1,
+      8,
+      16
+    ],
+    "previous_observed_results_ms": {
+      "1": 508.585,
+      "8": 149.82,
+      "16": 200.115
+    },
+    "previous_counter_check_passed": true,
+    "llvm_audit": {
+      "i64_loads": 2,
+      "i64_stores": 1,
+      "memory_barriers": 2,
+      "basic_audit_passed": true,
+      "loop_store_placement_verified": true
+    },
+    "all_ranks_basic_llvm_audit_passed": true
+  },
+  "verification": {
+    "task3_parity_passed": true,
+    "task4_basic_llvm_audit_passed": true,
+    "full_assignment_verified": false,
+    "note": "Task 1 and Task 2 passed earlier tests. Task 4 timings are from the previous run. Full independent reference validation and LLVM loop-placement verification remain."
+  }
+}
